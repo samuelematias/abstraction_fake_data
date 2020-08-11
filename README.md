@@ -21,7 +21,7 @@ This app show how you can Abstraction for fake api data in Flutter.
 
 ## Attention 🚨
 
-Fi you have problems when you use `SingleChildCloneableWidget` from provider, this widget was **deprecated**, so its necessary **replaced** by this new widget, the `SingleChildWidget`.<br/><br/> More about this changes, check this links:<br/>
+If you have problems when you use `SingleChildCloneableWidget` from provider, this widget was **deprecated**, so its necessary **replace** by this new widget, the `SingleChildWidget`.<br/><br/> More information about this changes, check this links:<br/>
 
 - [Flutter - Error: Type 'SingleChildCloneableWidget' not found in Provider package](https://stackoverflow.com/questions/59468968/error-type-singlechildcloneablewidget-not-found-in-provider-package)
 - [Simplify the integration of custom widgets with MultiProvider](https://github.com/rrousselGit/provider/issues/237)
