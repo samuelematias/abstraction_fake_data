@@ -1,12 +1,28 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
+import 'locator.dart';
+import 'services/api/api.dart';
 
 void main() {
+  setupLocator();
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    //Doesn't matter what implementation is supplied.
+    // When you request a Api new code,
+    // you dont request de implementation,
+    // instead, you request the abstract Api class.
+
+    //Using get_it
+    Api _api = locator<Api>();
+
+    //Using Provider
+    var api = Provider.of<Api>(context);
+
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(

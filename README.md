@@ -1,16 +1,32 @@
-# abstraction_fake_data
+<!-- header section -->
+<p align="center">
+  <span><b>Flutter -  Abstraction 💭</b></span><br/>
+</p>
+<!-- header section END -->
 
-A new Flutter project.
+<br/>
 
-## Getting Started
+<!-- show case/gif section -->
 
-This project is a starting point for a Flutter application.
+<!-- show case/gif section END -->
 
-A few resources to get you started if this is your first Flutter project:
+<br/>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<!-- about app and course section -->
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## About this app 🗣
+
+This app was developed from the tutorial [Save hours of Development time through Abstraction | Flutter Abstraction](https://www.youtube.com/watch?v=n2yGl7vJJGM&list=PLdTodMosi-BwEwlzjN6EyS1vwGXFo-UlK&index=12) by [Dane Mackier (Filledstacks)](https://www.filledstacks.com/).<br/><br/>
+This app show how you can Abstraction for fake api data in Flutter.
+
+## Tech Stack 👩🏾‍💻
+
+- [Dart](https://dart.dev/)
+- [Flutter](https://flutter.dev/)
+
+## Plugins 📟
+
+- [provider](https://pub.dev/packages/provider)
+- [get_it](https://pub.dev/packages/get_it)
+
+<!-- about app and course section END -->
